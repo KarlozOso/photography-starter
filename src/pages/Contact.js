@@ -19,10 +19,10 @@ initial={{ scale: 0, y: "-80%" }}
 animate={{ scale: 1, y: 0 }}
 exit={{ scale: 0, y:"-80%" }}
 transition={transition1}
-className='hidden lg:flex bg-[#eef7f9] absolute bottom-0 left-0 ring-0 top-72 -z-10'>
+className='hidden lg:flex bg-[#eef7f9] absolute bottom-0 left-0 right-0 top-72 -z-10'>
 </motion.div>
 
-<div className='lg:flex-1 lg:pt-32 px-4'>
+<div className='lg:flex-1 lg:pt-32 px-4 mt-16'>
   <h1 className='h1'>Contact me</h1>
   <p className='mb-12'>Would love to get suggestions from you</p>
   <form className='flex flex-col gap-y-4'>
@@ -35,8 +35,8 @@ className='hidden lg:flex bg-[#eef7f9] absolute bottom-0 left-0 ring-0 top-72 -z
     </form>
 </div>
 
-<div className='lg:flex-1 '>
-  <img src={WomanImg} alt="" />
+<div className='lg:flex-1 lg:h-[400px]'>
+  <img src={WomanImg} alt="" className=''/>
 </div>
 
 </div>
